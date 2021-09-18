@@ -1,0 +1,149 @@
+/*Resetar o css e colocar as popriedades mais gerais*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'BerKshire Swash', sans-serif; 
+        text-decoration: none;
+        color: rgb(41, 3, 76);
+    }
+
+    header {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238,174,202);
+    }
+
+    header h1 {
+    color: rgba(77, 16, 133);
+    font-size: 2.5em;
+    }
+        
+        
+    main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(238,174,202,1) 0.5%,rgba(148,187,233,1)100%);
+    }
+        
+    main form{
+    margin-top: 1%;
+    width: 35%;
+    height: 75vh;
+    background-color: rgba(45, 5, 45, 0.1);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5) insert 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:20px ;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     }
+        
+     /*ajeita o campo de inserir email e senha*/
+        
+    main form .input_login{
+    margin-top:2% ;
+    width: 100%;
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+        
+    main form .input_login input {
+    width: 90%;
+    height: 45px;
+    padding: 9px 12.5px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+        
+    font-size: 20;
+    color: rgba(77, 16, 133);
+        
+    box-shadow: rgba( 0, 0, 0, 0.5);
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+        
+    box-shadow: inset 0px 0px 1px 2px  rgba(77, 16, 133, 0.5);
+                
+    }
+        
+    main form .input_login input:focus {
+    box-shadow: inset 2px 2px 1px 0px  rgba(77, 16, 133, 0.5);
+                
+    }
+        
+    main form .input_login-senha {
+    width: 90%;
+    margin-top: 5%;
+    position: relative;
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    main form .input_login-senha i{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    color: rgba(77, 16, 133, 0.3);
+    cursor: pointer;
+    }
+
+    main form .input_login-email {
+    width: 90%;
+    margin-top: 5%;
+    position: relative;
+                
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    main form .input_login-senha #icone_olho-fechado {
+    display: none;
+    }
+    
+    main form .info_senha{
+        width: 80%;
+        margin-top: 3%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    main form .info_senha a {
+        transition: 0.2s ease-in-out;
+    }
+
+    main form .info_senha a:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    main form button{
+        background-color: rgba(77, 16, 133);
+        color: rgba(255, 255, 255);
+        width: 45%;
+        height: 50px;
+        border:0;
+        outline:0;
+        border-radius: 1000px;
+        margin-top: 10%;
+        font-size: 1.2em;
+        font-weight: 200;
+        cursor:pointer;
+        transition: 0.3s ease-out;
+    }
+
+    main form button:hover {
+        background-color: white;
+        color: rgba(77, 16, 133);
+    }
+

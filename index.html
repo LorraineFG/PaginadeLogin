@@ -1,0 +1,96 @@
+<!--iNSERIR shift + 1 faz criar a estrutura básica-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="./JS/index.js" defer></script>
+
+        <title>Login-Helper</title>
+ 
+        <!--Fonte do titulo > Berkshire -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=WindSong:wght@500&display=swap" rel="stylesheet">
+
+        <!--Fonte do Corpo > Amatic SC-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Berkshire+Swash&family=WindSong:wght@500&display=swap" rel="stylesheet">
+
+
+    
+        <script src="https://kit.fontawesome.com/e3d8422a27.js" crossorigin="anonymous" defer></script>
+
+        <!-- sem o arquivo defer, o navegador vai esperar o js carregar primeiro pra depois ler o css e html
+        do arquivo, o que levaria a um site pesado e lento, o melhor é deixar o navegador ler o css e html 
+        e depois carregar o js,por isso usamos o defer, mas tem outo comando que faz algo parecido com isso 
+        que é o assync
+    
+        o comando assync carrega todos assicronamente-->
+
+    </head>
+
+    <body>
+
+     <!--Inicio do Cabeçario-->
+        <header>
+            <h1>Welcome</h1>
+        </header>
+
+     <!--Inicio do Main-->
+        <main>
+            <form>
+                <section class="input_login">
+                    
+                    <!--Dentro desse section vai ficar o input de e-mail e de senha-->
+
+                    <div class="input_login-email"> 
+                        <input type="email" placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="input_login-senha">
+                        <input type="password" id="field-password" class="field-password" placeholder="************">
+                        <i class="fas fa-eye" id="icone_olho-aberto"></i>
+                        <i class="fas fa-eye-slash" id="Icone_olho-fechado"></i>
+                    </div>
+
+                </section>
+
+                <section class="info_senha">
+                    <!--Informações do tipo: esqueceu sua senha ou lembrar sua senha, coisas de telas de login-->
+                    <div>
+                        <input type="checkbox">
+                        <span>Lembrar Senha?</span>
+                    </div>
+
+                    <div>
+                    <a href="a">Esqueceu sua Senha?</a>
+                    </div>
+                    
+                </section>
+
+                <button id="btn-login">Entrar</button>
+
+                <section class="links_login-redes-sociais">
+                    <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </section>
+
+                <footer>
+                    <hr> <!--Esse hr é so um espaço de linha-->
+                    <Span>Ainda não tem uma conta?<a href="#"> Cadastre-se</a></Span> <!--O Span é um tipo de div de linha-->
+                </footer>
+            </form>
+
+       
+        </main>
+
+    </body>
+
+</html>

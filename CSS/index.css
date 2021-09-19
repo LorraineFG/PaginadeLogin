@@ -111,6 +111,7 @@
         align-items: center;
     }
 
+
     main form .input_login-senha #olhoaberto {
         display: none;
     }
@@ -168,32 +169,42 @@
 
     main form .links_login-redes-sociais aside{
         margin-top: 5%;
-        width: 8em;
-        
+        width: 45%;
+                     
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
     main form .links_login-redes-sociais aside i {
+        
         font-size: 2em;
+        background-color: #fff;
+        padding: 13px;
+        height: 10px;
+        width: 10px;
+       
         transition: 0.3s ease-in-out;
+
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     main form .links_login-redes-sociais .google:hover{
-        box-shadow: 0.1px 0.1px 10px 0.1px rgb(255, 255, 255);
-        border-radius: 3px;
+        box-shadow: 0.1px 0.1px 9px 5px rgb(255, 255, 255);
+        border-radius: 10%
+      
     }
 
     main form .links_login-redes-sociais .linkedin:hover{
-        box-shadow: 0.1px 1px 5px 1px rgb(255, 255, 255);
+        box-shadow: 0.1px 0.1px 9px 5px  rgb(255, 255, 255);
+        border-radius: 10%
     }
 
     main form .links_login-redes-sociais .facebook:hover{
-        box-shadow: 0.1px 1px 5px 1px rgb(255, 255, 255);
+        box-shadow: 0.1px 0.1px 9px 5px  rgb(255, 255, 255);
+        border-radius: 10%
     }
 
     main form footer{

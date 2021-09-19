@@ -23,6 +23,7 @@
         do arquivo, o que levaria a um site pesado e lento, o melhor é deixar o navegador ler o css e html 
         e depois carregar o js,por isso usamos o defer, mas tem outo comando que faz algo parecido com isso 
         que é o assync
+    
         o comando assync carrega todos assicronamente-->
 
     </head>
@@ -46,9 +47,9 @@
                     </div>
 
                     <div class="input_login-senha">
-                        <input type="password" id="field-password" class="field-password" placeholder="************">
-                        <i class="fas fa-eye" id="icone_olho-aberto"></i>
-                        <i class="fas fa-eye-slash" id="Icone_olho-fechado"></i>
+                        <input type="password" id="fieldpassword" class="field-password" placeholder="************">
+                        <i class="fas fa-eye" id="olhoaberto" onclick="mostrarsenha()"></i>
+                        <i class="fas fa-eye-slash" id="olhofechado" onclick="mostrarsenha()"></i>
                     </div>
 
                 </section>
